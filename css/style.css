@@ -1,0 +1,141 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden;
+}
+
+
+.banner{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-color: #f292ff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+
+}
+
+.banner .content{
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+    
+}
+.header .banner span, h1, p{
+    z-index: 2;
+    color: #fff;
+}
+.header .banner h1{
+    font-size: 60px;
+}
+
+.header .banner p{
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Acerca de nosotros*/
+.about-us{
+    background-color: #f7bdff;
+
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.about-us p{
+    color:#fff;
+    font-size: 22px;
+    
+}
+
+.about-us a{
+    text-decoration: none;
+    color:red;
+}
+
+.about-us h2{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1.5px;
+
+}
+
+/* Fin de acerca de nosotros*/
+
+
+/* Inicio imagenes */
+
+.imagenes{
+text-align: center;
+background-color: #f7bdff; 
+margin: 10px;
+border-radius: 10px;   
+
+}
+
+.imagenes img{
+    margin-top:10px;
+    border-radius: 35%;
+}
+
+.imagenes h2{
+    text-decoration: underline;
+}
+
+.imagenes h3{
+    margin-top:20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Debajo del banner */
+/*.content p{
+    color:#fff;
+    font-size: 22px;
+}
+
+
+.content{
+    width: 80%;
+    background-color: yellowgreen;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content img{
+    max-width: 400px;
+    bottom: 0;
+    left:50;
+    right: 0;
+}*/
+/* Fin de estilos debajo del banner */
+
+
+
